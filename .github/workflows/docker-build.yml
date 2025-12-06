@@ -29,5 +29,3 @@ jobs:
           tags: |
             ${{ secrets.DOCKER_USERNAME }}/sesion3-demo:latest
             ${{ secrets.DOCKER_USERNAME }}/sesion3-demo:${{ github.sha }}
-          cache-from: type=gha
-          cache-to: type=gha,mode=max
